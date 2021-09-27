@@ -1,7 +1,7 @@
 .bgimage{
    width: 100%;
    height: 90vh;
-   background-image: linear-gradient(rgba(95, 30, 0, 0.363),rgba(109, 22, 0, 0.445)), url(https://media.istockphoto.com/photos/quality-control-certification-checked-guarantee-of-standard-picture-id1282804749?b=1&k=20&m=1282804749&s=170667a&w=0&h=pxajgIoOB8XGjTPHwWAsnVS3PCoUZWxBwCYBdpqCVk8=);
+   background-image:  url(https://media.istockphoto.com/photos/quality-control-certification-checked-guarantee-of-standard-picture-id1282804749?b=1&k=20&m=1282804749&s=170667a&w=0&h=pxajgIoOB8XGjTPHwWAsnVS3PCoUZWxBwCYBdpqCVk8=), linear-gradient(rgba(95, 30, 0, 0.363),rgba(109, 22, 0, 0.445));
    position: relative;
 
 }
