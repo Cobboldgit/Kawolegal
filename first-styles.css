@@ -1,31 +1,56 @@
 .bgimage{
    width: 100%;
    height: 90vh;
-   background-image: linear-gradient(#a9444270,#a944426b), url(https://images.unsplash.com/photo-1621570276129-f01c7c0d3360?ixid=MnwxMjA3fDF8MHxzZWFyY2h8NTl8fG1lZXRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+   background-image: linear-gradient(rgba(95, 30, 0, 0.363),rgba(109, 22, 0, 0.445)), url(https://media.istockphoto.com/photos/quality-control-certification-checked-guarantee-of-standard-picture-id1282804749?b=1&k=20&m=1282804749&s=170667a&w=0&h=pxajgIoOB8XGjTPHwWAsnVS3PCoUZWxBwCYBdpqCVk8=);
    position: relative;
+
 }
+
+                            
 .links{
     margin-right: 20px;
+    z-index: 1;
 }
+
 .links >li>a{
     color: red;
+
 }
+
 .content {
      position: absolute;
      transform: translate(50rem, 10rem);
-     left: 50px;
      top: 80px;
 }
+
 .text-color{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .footer{
     background: rgb(161, 52, 32);
     margin: 15px;
     padding: 10px;
 }
+
 .icon{
-    margin-left: 30px;
+    margin-left: 20px;
     padding-right: 10px;
+    font-size: 20px;
+    color: rgb(104, 207, 241);
 }
+
+.home{
+    border: 1px solid red;
+}
+
+
+
+/* .overlay{
+    background: red;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .3;
+} */
